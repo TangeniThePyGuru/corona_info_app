@@ -1,10 +1,11 @@
 package com.example.coronainfo;
 
-public class Transmission {
+public class Transmission  extends CoronaModel{
 
     private String [] transmission = {"TEST 123", "TEST 1456", "JOY 789"};
 
-    public Transmission(){
+    public Transmission(String info){
+        super(info);
 
     }
 
