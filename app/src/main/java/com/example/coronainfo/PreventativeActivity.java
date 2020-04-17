@@ -3,6 +3,7 @@ package com.example.coronainfo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 
 public class PreventativeActivity extends AppCompatActivity {
 
@@ -11,4 +12,6 @@ public class PreventativeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_preventative);
     }
+
+    public void back(View v){ finish(); }
 }

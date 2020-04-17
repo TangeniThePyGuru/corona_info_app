@@ -11,4 +11,8 @@ public class EffectsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_effects);
     }
+
+    public void back(Void v){
+        finish();
+    }
 }

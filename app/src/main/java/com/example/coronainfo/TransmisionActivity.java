@@ -3,6 +3,7 @@ package com.example.coronainfo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 
 public class TransmisionActivity extends AppCompatActivity {
 
@@ -11,4 +12,6 @@ public class TransmisionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transmision);
     }
+
+    public void back(View v){ finish(); }
 }
