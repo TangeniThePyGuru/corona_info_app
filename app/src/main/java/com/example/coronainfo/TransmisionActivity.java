@@ -13,5 +13,8 @@ public class TransmisionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_transmision);
     }
 
-    public void back(View v){ finish(); }
+    public void back(View v){
+        finish();
+        overridePendingTransition(R.anim.back, R.anim.back_outgoing);
+    }
 }

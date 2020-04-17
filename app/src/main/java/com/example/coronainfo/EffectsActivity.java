@@ -14,5 +14,6 @@ public class EffectsActivity extends AppCompatActivity {
 
     public void back(Void v){
         finish();
+        overridePendingTransition(R.anim.back, R.anim.back_outgoing);
     }
 }

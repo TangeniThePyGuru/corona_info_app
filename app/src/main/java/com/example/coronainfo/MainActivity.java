@@ -23,5 +23,6 @@ public class MainActivity extends AppCompatActivity {
             intent = new Intent(this, UpdateDashboardActivity.class);
         }
         startActivity(intent);
+        overridePendingTransition(R.anim.incoming, R.anim.outgoing);
     }
 }
